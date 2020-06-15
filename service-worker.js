@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/objectiveyes-webapp/precache-manifest.fe6ed0eb86d6e378a71dae887cf806a1.js"
+  "/objectiveyes-webapp/precache-manifest.fcfd016e2f99c7f90f46928fee4bf728.js"
 );
 
 self.addEventListener('message', (event) => {
