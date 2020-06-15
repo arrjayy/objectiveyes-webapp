@@ -22,7 +22,7 @@ ReactDOM.render(
     <Switch>
       <Switch>
         <Route
-          path="/"
+          path="/home"
           render={props => <LandingPage {...props} />}
         />
         <Route
@@ -41,7 +41,8 @@ ReactDOM.render(
           path="/project-info"
           render={props => <ProjectInfo {...props} />}
         />
-        <Redirect from="/index" to="/" />
+        <Redirect to="/home" />
+        <Redirect from="/" to="/home" />
       </Switch>
     </Switch>
   </BrowserRouter>,
