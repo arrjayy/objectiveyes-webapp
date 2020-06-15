@@ -72,7 +72,10 @@ function ExamplesNavbar() {
                 Home
               </DropdownItem>
               <DropdownItem href="/about-us">
-                Try our tech
+                About us
+              </DropdownItem>
+              <DropdownItem href="/try-our-tech">
+                Try our Tech
               </DropdownItem>
               <DropdownItem href="/other-info">
                 Other info

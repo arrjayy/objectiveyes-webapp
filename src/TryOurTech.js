@@ -36,12 +36,16 @@ function LandingPage() {
                 <LandingPageHeader />
                 <Row>
                     <Col className="ml-auto mr-auto text-center" md="8">
-                        <h2 className="title">About us</h2>
+                        <h2 className="title">ObjectivEyes</h2>
                         <h5 className="description">
-                            Welcome to the about us page for the ObjectiveEyes application.
-
-                            We are lacking information at the moment, but please bear with us.
+                            <div>Please feel free to try out our image detection app.</div>
+                            <div>Please load the object detection model first, using the button below. It may take a few seconds to download; but, once it's done, you can upload an image from your device and see how machine learning can help you.
+                            </div>
                         </h5>
+                        <Row style={{ justifyContent: "center" }}>
+                            <App />
+                            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+                        </Row>
                     </Col>
                 </Row>
             </div>

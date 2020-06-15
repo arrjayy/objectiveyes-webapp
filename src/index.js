@@ -14,6 +14,7 @@ import App from "./components/tensorflow/App";
 import AboutUs from "./AboutUs.js";
 import Otherinfo from "./Otherinfo.js";
 import ProjectInfo from "./ProjectInfo.js";
+import TryOurTech from "./TryOurTech.js";
 
 import * as serviceWorker from './serviceWorker';
 
@@ -32,6 +33,10 @@ ReactDOM.render(
         <Route
           path="/about-us"
           render={props => <AboutUs {...props} />}
+        />
+        <Route
+          path="/try-our-tech"
+          render={props => <TryOurTech {...props} />}
         />
         <Route
           path="/other-info"
